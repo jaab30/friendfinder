@@ -1,19 +1,17 @@
-html {
-    box-sizing: border-box;
-    height: 100%;
-    }
-    *, *:before, *:after {
-    box-sizing: inherit;
-    }
-
+    html {
+        box-sizing: border-box;
+        height: 100%;
+        }
+        *, *:before, *:after {
+        box-sizing: inherit;
+        }
 
     body {
-        background-image: url("../../assets/images/random_grey.png");  
+        background-image: url("../images/random_grey.png");  
          }
-
+/* top header image */
     .front {
-        /* margin-top: 20px; */
-        background: url("../../assets/images/back3.png");
+        background: url("../images/back3.png");
         background-repeat: no-repeat;
         background-size: 100% 100%;
         z-index: 0;
@@ -30,25 +28,27 @@ html {
         z-index: -1;
 
         }
-
-    h1 {
+/* title */
+    .title {
         font-family: 'Abril Fatface', cursive;
-        font-size: 4em;
-        margin-top:-50px;
-        color: white;
+        margin-top:-30px;
+        margin-bottom: 0;
+        color:white;
         z-index: 1;
         text-align: right;
         text-shadow: 1px 1px 5px rgb(22, 22, 22);
+        font-size: 4em;
     }
-
+/* other text header */
     .lead {
-
         font-family: 'Montserrat', sans-serif;
         margin-right: 10px;
+        margin-bottom: 50px;
         color: white;
         text-align: right;
         font-weight: 500;
         text-shadow: 1px 1px 5px rgb(22, 22, 22);
+        border: none;
     }
 
     .pfront {
@@ -58,7 +58,7 @@ html {
         font-size: 1.2em;
         text-shadow: 1px 1px 5px rgb(22, 22, 22);
     }
-
+/* Home button */
     .homeBtn{
         margin:0 auto;
         font-family: 'Montserrat', sans-serif;
@@ -90,26 +90,21 @@ html {
         box-shadow: none;
     }
     
-
     .homeBtndiv {
         text-align: center;
 
     }
 
-
     .homeBtndiv2 {
         text-align: center;
         margin-top: 30px ;
         margin-bottom: 50px ;
-
     }
-
+/* Links */
     .apiLinkstext{
         margin-top: 10px;
         text-align: right;
         color: white;
-
-
     }
 
     .apiLinks{
@@ -118,30 +113,26 @@ html {
     .apiLinks:active {
         text-decoration: none;
         color: white;
-
     }
     .apiLinks:hover {
-        
         text-decoration: none;
         color: rgb(185, 152, 40);
-
     }
-
+/* form */
     .form-group {
         text-align: center;
         margin-top: 20px;
         font-family: 'Raleway', sans-serif;
         color: white;
     }
-
+/* questions */
     .questions {
         margin: 0 auto;
-        width: 100px;
+        width: 175px;
         background-color:black;
         border: solid 2px black;
         font-family: 'Raleway', sans-serif;
         font-size: 1.3em;
-
     }
 
     .questionsText{
@@ -150,8 +141,58 @@ html {
         font-family: 'Raleway', sans-serif;
         font-weight: 500;
         color: white;
-
     }
 
+    /* Modal */
 
+    .modal-content {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+        /* pointer-events: auto; */
+        background-color: rgb(82, 82, 82);
+        background-clip: padding-box;
+        border: 1px solid rgba(255,255,255,.4);
+        border-radius: .3rem;
+        outline: 0;
+        text-align: center;
+    }
 
+    .modal-header {
+        font-family: 'Raleway', sans-serif;
+        display: -ms-flexbox;
+        display: inline;
+        border-bottom: none;
+        text-align: center;
+        color: white;
+    }
+/* modal button */
+    .btn {
+        color: white;
+        background-color: red;
+    }
+
+    .modal-footer {
+        border-top:none;
+    }
+    .resultImage {
+        border: solid 2px rgb(218, 218, 218, .7);
+        border-radius: 10% 0 10% 0;
+    }
+
+/* home button */
+    .homeBtn{
+        margin:0 auto;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1em;
+        color: white;
+        padding: 10px 12px;
+        font-weight: 500;
+        border-radius: 1em 1em 1em 1em;
+        border: none;
+        box-shadow: 1px 1px 5px rgb(22, 22, 22);
+        background-color: rgb(41, 41, 41);
+    }
