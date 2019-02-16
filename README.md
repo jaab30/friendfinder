@@ -12,3 +12,10 @@ Here it is the link to the App:<br>
 https://secure-forest-83146.herokuapp.com/
 <br>
 Enjoy..!
+<br>
+<br>
+<img src="https://user-images.githubusercontent.com/40499942/52906146-2a2f7a00-3214-11e9-8697-3ca62a3d0497.png" alt="Friend Finder Image" width="400px" height="320px"><br><br>
+<img src="https://user-images.githubusercontent.com/40499942/52906145-2a2f7a00-3214-11e9-9b4b-2155c418831d.png" alt="Friend Finder Image" width="400px" height="320px"><br><br>
+<img src="https://user-images.githubusercontent.com/40499942/52906147-2a2f7a00-3214-11e9-888c-7dec9d5ea53a.png" alt="Friend Finder Image" width="400px" height="320px">
+
+
